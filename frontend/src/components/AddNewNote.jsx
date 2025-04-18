@@ -89,7 +89,7 @@ const NoteEditor = () => {
                                     />
                                 </div>
 
-                                <div className="space-y-2">
+                                {/* <div className="space-y-2">
                                     <label className="text-sm font-medium text-gray-700 flex items-center gap-2">
                                         <DocumentTextIcon className="w-5 h-5 text-indigo-500" />
                                         Hashtags
@@ -101,7 +101,7 @@ const NoteEditor = () => {
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 min-h-[100px] max-h-[220px] resize-y transition-all"
                                         required
                                     />
-                                </div>
+                                </div> */}
 
                                 <motion.div
                                     initial={{ opacity: 0 }}

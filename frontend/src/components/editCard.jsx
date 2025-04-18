@@ -97,7 +97,7 @@ const EditCard = () => {
                                     />
                                 </div>
 
-                                <div className="space-y-2">
+                                {/* <div className="space-y-2">
                                     <label className="text-sm font-medium text-gray-700">Hashtags</label>
                                     <input
                                         type="text"
@@ -106,7 +106,7 @@ const EditCard = () => {
                                         placeholder="#react #coding #notes"
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder-gray-400 transition-all"
                                     />
-                                </div>
+                                </div> */}
 
                                 <div className="flex justify-end gap-4">
                                     <motion.button

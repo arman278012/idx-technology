@@ -79,9 +79,9 @@ const NotesList = ({ notes }) => {
                                     <p className="text-sm text-gray-600 line-clamp-3 mb-4">
                                         {note.content}
                                     </p>
-                                    <p className="text-sm text-blue-600 line-clamp-3 mb-4">
+                                    {/* <p className="text-sm text-blue-600 line-clamp-3 mb-4">
                                         {note.hashtags[0]}
-                                    </p>
+                                    </p> */}
                                     <div className="flex items-center justify-between text-sm">
                                         <span className="text-gray-500">
                                             {new Date(note.date).toLocaleDateString()}
